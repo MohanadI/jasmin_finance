@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: "El Messiri";
+  src:local("ElMessiri-Regular"),
+  url('./assets/fonts/ElMessiri-Regular.ttf') 
+}
+
+:root {
+  font-family: 'El Messiri', sans-serif;
+  line-height: 1.7;
+  font-weight: 300;
+  font-size: 19px;
+  color-scheme: light;
+  background-color: #f2f2f2;
+  direction: rtl;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
